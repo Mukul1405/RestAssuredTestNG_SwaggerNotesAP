@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+	<test verbose="2" preserve-order="true" name="C:/Mukul_181611/folder/RestAssured_SwaggerNotesProject/Swagger Notes API/src/test/java/com/automation/tests/integration/ITC_2-Create_Update_GetNote">
+		<groups>
+			<run>
+				<include name="itc2"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.automation.tests.integration.ITC_2_Create_Update_GetNote">
+				<methods>
+					<include name="createNote"/>
+					<include name="updateNote"/>
+					<include name="getNote"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
