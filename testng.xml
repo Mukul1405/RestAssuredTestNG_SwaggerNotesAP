@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-	<test verbose="2" preserve-order="true" name="C:/Mukul_181611/folder/RestAssured_SwaggerNotesProject/Swagger Notes API/src/test/java/com/automation/tests/integration/ITC_1_Create_GetNote.java">
+	<test verbose="2" preserve-order="true" name="C:/Mukul_181611/folder/RestAssured_SwaggerNotesProject/Swagger Notes API/src/test/java/com/automation/tests/crud/TC01_HealthCheckup">
 		<classes>
-			<class name="com.automation.tests.integration.ITC_1_Create_GetNote">
+			<class name="com.automation.tests.crud.TC01_HealthCheckup">
 				<methods>
-					<include name="createNote"/>
-					<include name="getNote"/>
+					<include name="healthCheck"/>
 				</methods>
 			</class>
 		</classes>
